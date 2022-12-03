@@ -1,0 +1,15 @@
+Escreval("Digite seu voto")
+Leia(voto)
+
+ESCOLHA voto
+CASO "20"
+     Escreval("Voce votou no Marcelo")
+CASO "30"
+     Escreval("Voce votou no Pernalonga")
+CASO "40"
+     Escreval("Voce votou no Patolino")
+OUTROCASO
+     Escreval("Voto nulo")
+fimescolha
+
+fimalgoritmo
