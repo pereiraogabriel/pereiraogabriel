@@ -1,0 +1,29 @@
+int main(){
+   char voto;
+   
+   printf("Digite seu voto, sendo:\n 2 para o candidato Marcelo\n 3 para o Pernalonga\n 4 para o Patolino\n Ou diferente para VOTO NULO\n");
+   scanf("%c", &voto);
+   
+   // PODERIAMOS USAR A FUNÇÃO GETCH TAMBEM//
+   
+   switch (voto)
+   {
+       case '2':
+       printf("Voce votou no Marcelo\n");
+       break;
+       
+       case '3':
+       printf("Voce votou no Pernalonga\n");
+       break;
+      
+       case '4':
+       printf("Voce votou no Patolino\n");
+       break;
+       
+       default:
+       printf("VOTO NULO\n");
+   }
+   
+   
+    return 0;
+}
